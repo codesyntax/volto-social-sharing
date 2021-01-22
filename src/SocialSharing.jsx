@@ -4,7 +4,10 @@ import React from 'react';
 
 const SocialSharing = () => (
     <div>
-    <h1>KKKKKKKKK</h1>
+    <h1>Hemen joango da</h1>
+
+
+
     </div>
 //   <CookieConsent
 //     buttonText={buttonText ?? 'OK'}
