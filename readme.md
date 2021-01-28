@@ -1,4 +1,4 @@
-# volto-social-sharing <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Font_Awesome_5_regular_share-square.svg" alt="share-icon" width="40px" style="float:right"/>
+# volto-social-sharing <img src="./examples/volto-social-sharing.png" alt="share-icon" width="40px" style="float:right"/>
 
 Volto social sharing integration addon.
 
@@ -195,3 +195,8 @@ export const settings = {
 };
 ```
 
+
+
+
+<br><br><br>
+*Icon author:* Throwaway icons - https://thenounproject.com/search/?q=share&amp;i=1343423, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=89416553
