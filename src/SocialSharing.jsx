@@ -15,7 +15,6 @@ const SocialSharing = ({
     const [currentUrl, setCurrentUrl] = useState("");
 
     useEffect(() => {
-        console.log("social: ", socialElements)
         setCurrentUrl(window.location.href);
     })
 
