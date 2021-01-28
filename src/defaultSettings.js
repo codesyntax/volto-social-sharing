@@ -1,9 +1,3 @@
-// import { ReactComponent as Facebook } from '../assets/facebook.svg';
-// import { ReactComponent as Twitter } from '../assets/twitter.svg';
-// import { ReactComponent as Telegram } from '../assets/telegram.svg';
-// import { ReactComponent as Whatsapp } from '../assets/whatsapp.svg';
-
-
 export const DEFAULT_SOCIAL = [{
     name: "Facebook",
     fa_name: ["fab", "facebook-f"],
