@@ -10,6 +10,17 @@ To be used with mrs-developer, see [Volto docs](https://docs.voltocms.com/custom
 
 <br>
 
+# Table of Contents
+
+1. [Usage](##Usage)
+2. [Paths config](#paths)
+3. [Customization](#Customization)
+4. [New social item](#new_social_item)
+5. [Edit social item](#edit_social_item)
+6. [Remove social item](#remove_social_item)
+
+<br>
+
 ## Usage
 To inject the component in the project add the appextras configuration in the config.js file.
 
@@ -33,7 +44,7 @@ export const settings = {
 <br>
 
 
-## To determine which paths will be displayed
+## To determine which paths will be displayed <a name="paths"></a>
 
 You can determine in which views the component will be displayed
 
@@ -88,7 +99,7 @@ There are several parameters that can be customized
 
 <br>
 
-## Add new social item
+## Add new social item <a name="new_social_item"></a>
 
 ```js
 // import default social list
@@ -129,7 +140,7 @@ export const settings = {
 
 <br>
 
-## Change existing social item value
+## Change existing social item value <a name="edit_social_item"></a>
 
 ```js
 // import default social list
@@ -167,7 +178,7 @@ export const settings = {
 
 <br>
 
-## Remove existing social item
+## Remove existing social item <a name="remove_social_item"></a>
 
 ```js
 // import default social list
