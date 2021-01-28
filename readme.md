@@ -12,16 +12,16 @@ To be used with mrs-developer, see [Volto docs](https://docs.voltocms.com/custom
 
 # Table of Contents
 
-1. [Usage](##Usage)
+1. [Usage](#usage)
 2. [Paths config](#paths)
-3. [Customization](#Customization)
+3. [Customization](#customization)
 4. [New social item](#new_social_item)
 5. [Edit social item](#edit_social_item)
 6. [Remove social item](#remove_social_item)
 
 <br>
 
-## Usage
+## Usage <a name="usage"></a>
 To inject the component in the project add the appextras configuration in the config.js file.
 
 A suggested way is to use `appExtras` from settings object ([docs](https://docs.voltocms.com/recipes/appextras/)):
@@ -66,7 +66,7 @@ export const settings = {
 
 <br>
 
-## Customization
+## Customization <a name="customization"></a>
 There are several parameters that can be customized
 
 * **socialElements**: List of social items.
