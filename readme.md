@@ -162,3 +162,36 @@ export const settings = {
 
 ![change_value_desktop](./examples/change_value_desktop.png)
 ![change_value_mobile](./examples/change_value_mobile.png)
+
+
+
+<br>
+
+## Remove existing social item
+
+```js
+// import default social list
+import {DEFAULT_SOCIAL} from '@codesyntax/volto-social-sharing/defaultSettings';
+
+// Remove social item by id
+const index = DEFAULT_SOCIAL.findIndex(social => social.id === "fb");
+if (index !== undefined) DEFAULT_SOCIAL.splice(index, 1);
+
+export const settings = {
+  ...defaultSettings,
+  appExtras: [
+    ...defaultSettings.appExtras,
+    {
+      match: {
+        path: ['**/ekitaldiak/**', '**/eventos/**', '/eu/albisteak/**', '/es/noticias/**'],
+        exact: true,
+      },
+      component: SocialSharing,
+      props:{
+        socialElements: DEFAULT_SOCIAL
+      }
+    },
+  ],
+};
+```
+
