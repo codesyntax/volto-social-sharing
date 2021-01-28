@@ -25,33 +25,28 @@ ul.vertical li {
     box-shadow: 10px;
 }
 
-li:hover #icon {
+li:hover .fa-icon {
     -webkit-transform: rotate(-15deg);
     transform: rotate(-15deg);
 }
 
-#icon {
+.fa-icon {
     -webkit-transition: -webkit-transform 0.2s ease-in-out;
     transition: transform 0.2s ease-in-out;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-
-
-
-.container {
+.icon-container {
     position: relative;
     width: 100%;
     max-width: 400px;
-  }
-  
+}
 
-  
-  .icon {
+.fa-icon-position {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
-  }
+}
