@@ -41,7 +41,7 @@ export const DEFAULT_POSITIONS = {
     }
 }
 
-// TYPES:  "lg"|"xs"|"6x"
+// OPTIONS:  "lg" | "xs" | "sm" | "2x" | "3x" | "4x" | "5x" | "6x" | "7x" | "8x" | "9x" | "10x"
 export const DEFAULT_LOGO_SIZE = "lg";
 
 export const DEFAULT_BUTTON_SIZE = "30px"
