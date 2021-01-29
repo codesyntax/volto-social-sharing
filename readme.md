@@ -209,5 +209,19 @@ export const settings = {
 
 
 
-<br><br><br>
-*Icon author:* Throwaway icons - https://thenounproject.com/search/?q=share&amp;i=1343423, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=89416553
+<br>
+
+---
+
+<br>
+
+## Contributing
+
+Feel free to send PRs.
+
+## Icon Author
+By Throwaway icons - https://thenounproject.com/search/?q=share&amp;i=1343423, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=89416553
+
+## License
+
+MIT © [CodeSyntax](https://github.com/codesyntax)
