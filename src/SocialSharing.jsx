@@ -36,11 +36,11 @@ const SocialSharing = ({
 
     return (
         <div style={isMobile ? bannerPosition["mobile"] : bannerPosition["desktop"]}>
-            <ul className={isMobile ? "horizontal" : "vertical"}>
+            <ul className={isMobile ? "horizontal volto-social-sharing" : "vertical volto-social-sharing"}>
                 {
                     socialElements.filter(social => (!social.only_mobile === !isMobile || isMobile)).map(social => {
                         return (
-                            <li key={social.id} style={{ backgroundColor: social.color }}>
+                            <li className={`volto-social-${social.id}`} key={social.id} style={{ backgroundColor: social.color }}>
                                 <div
                                     style={{
                                         width: buttonSize,
