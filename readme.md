@@ -1,8 +1,19 @@
-# volto-social-sharing <img src="./examples/volto-social-sharing.png" alt="share-icon" width="40px" style="float:right"/>
+<div align="center"><img alt="logo" src="./examples/volto-social-sharing.png" width="40" /></div>
+
+<h1 align="center">Volto Social Sharing</h1>
 
 Volto social sharing integration addon.
 
-To be used with mrs-developer, see [Volto docs](https://docs.voltocms.com/customizing/add-ons/) for further usage informations.
+<div align="center">
+
+[![npm](https://img.shields.io/npm/v/@codesyntax/volto-social-sharing)](https://www.npmjs.com/package/@codesyntax/volto-social-sharing)
+
+[![GitHub contributors](https://img.shields.io/github/contributors/codesyntax/volto-social-sharing)](https://github.com/codesyntax/volto-social-sharing)
+[![GitHub Repo stars](https://img.shields.io/github/stars/codesyntax/volto-social-sharing?style=social)](https://github.com/codesyntax/volto-social-sharing)
+
+</div>
+
+To be used with mrs-developer, see [Volto docs](https://6.dev-docs.plone.org/volto/addons/index.html) for further usage informations.
 
 
 ![Desktop](./examples/desktop.png)
@@ -83,8 +94,8 @@ There are several parameters that can be customized
         * **color** (string): CSS color value.
         * **sharing_url** (string): Link of the social network to share. ([Examples](https://github.com/bradvin/social-share-urls/blob/0c6d81fc950144e18ada062e0aba90d738b70d90/code/javascript/javascript/social-share-media.js#L151))
         * **only_mobile** (bool) *optional: Set to true if it will only be displayed in the mobile view.
-* **bannerPosition**: Position of social items banner. 
-    * By default: 
+* **bannerPosition**: Position of social items banner.
+    * By default:
         * In the **desktop** view centered on the right.
         * In the **mobile** view centered on the bottom.
     * Options:
@@ -92,7 +103,7 @@ There are several parameters that can be customized
         * defaultPositions["mobile"] = {[React DOM Style](https://reactjs.org/docs/dom-elements.html#style)}
 * **logoSize**: Font Awesome logo size. ([Doc](https://fontawesome.com/how-to-use/on-the-web/using-with/react#features))
     * By default: "lg".
-    * [Options](https://fontawesome.com/how-to-use/on-the-web/styling/sizing-icons#scale): "lg" | "xs" | "sm" | "2x" | "3x" | "4x" | "5x" | "6x" | "7x" | "8x" | "9x" | "10x"       
+    * [Options](https://fontawesome.com/how-to-use/on-the-web/styling/sizing-icons#scale): "lg" | "xs" | "sm" | "2x" | "3x" | "4x" | "5x" | "6x" | "7x" | "8x" | "9x" | "10x"
 * **buttonSize**: Button with and height.
     * By default: "30px"
 
