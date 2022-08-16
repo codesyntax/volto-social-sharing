@@ -1,6 +1,6 @@
 {
   "name": "@codesyntax/volto-social-sharing",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "volto-social-sharing: Volto add-on",
   "main": "src/index.js",
   "license": "MIT",
