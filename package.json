@@ -15,5 +15,9 @@
     "@fortawesome/free-brands-svg-icons": "5.15.2",
     "@fortawesome/free-solid-svg-icons": "5.15.2",
     "@fortawesome/react-fontawesome": "0.1.14"
+  },
+  "scripts": {
+    "release": "release-it",
+    "i18n": "rm -rf build/messages && NODE_ENV=production i18n --addon"
   }
 }
