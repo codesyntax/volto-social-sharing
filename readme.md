@@ -38,6 +38,30 @@ To inject the component in the project add the appextras configuration in the co
 A suggested way is to use `appExtras` from settings object ([docs](https://docs.voltocms.com/recipes/appextras/)):
 
 ```jsx
+import '@plone/volto/config';
+import SocialSharing from '@codesyntax/volto-social-sharing/SocialSharing';
+
+export default function applyConfig(config) {
+  config.settings = {
+    ...config.settings,
+    appExtras: [
+      ...config.settings.appExtras,
+      {
+        match: '',
+        component: SocialSharing,
+      },
+    ],
+  }
+  return config;
+}
+
+```
+
+
+
+If you have an old-style frontend you can do the following:
+
+```jsx
 import SocialSharing from '@codesyntax/volto-social-sharing/SocialSharing';
 
 export const settings = {
@@ -51,6 +75,8 @@ export const settings = {
   ],
 };
 ```
+
+
 
 <br>
 
