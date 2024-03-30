@@ -25,7 +25,7 @@ const SocialSharing = ({
 
   useEffect(() => {
     setCurrentUrl(window.location.href);
-  });
+  }, []);
 
   // Disable sharing on non content routes
   useEffect(() => {
@@ -44,7 +44,7 @@ const SocialSharing = ({
     return () => {
       window.removeEventListener('resize', handleWindowSizeChange);
     };
-  });
+  }, []);
   // end - MOBILE checker
 
   return (
