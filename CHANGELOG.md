@@ -8,6 +8,12 @@
 
 <!-- towncrier release notes start -->
 
+## 1.5.0 (2024-03-30)
+
+### Internal
+
+- Modernize project setup and CI @erral [#12](https://github.com/codesyntax/volto-social-sharing/pull/12)
+
 ## 1.4.0 (2024-02-09)
 
 ### Internal
