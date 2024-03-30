@@ -4,8 +4,8 @@ ul {
 
 ul.horizontal {
   display: table;
-  box-sizing: border-box;
   width: 100%;
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -18,8 +18,8 @@ ul.horizontal li {
 ul.vertical li {
   padding: 10px;
   border-radius: 50%;
-  background-color: white;
   margin-bottom: 10px;
+  background-color: white;
   box-shadow: 10px;
 }
 
