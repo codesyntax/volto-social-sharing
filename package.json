@@ -14,8 +14,10 @@
     "@fortawesome/fontawesome-svg-core": "1.2.34",
     "@fortawesome/free-brands-svg-icons": "5.15.2",
     "@fortawesome/free-solid-svg-icons": "5.15.2",
-    "@fortawesome/react-fontawesome": "0.1.14",
-    "release-it": "^15.11.0"
+    "@fortawesome/react-fontawesome": "0.1.14"
+  },
+  "devDependencies": {
+    "release-it": "^16.1.5"
   },
   "scripts": {
     "i18n": "rm -rf build/messages && NODE_ENV=production i18n --addon",
