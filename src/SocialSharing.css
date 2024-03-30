@@ -3,11 +3,11 @@ ul {
 }
 
 ul.horizontal {
-  box-sizing: border-box;
   display: table;
-  margin: 0;
-  padding: 0;
+  box-sizing: border-box;
   width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 ul.horizontal li {
@@ -16,9 +16,9 @@ ul.horizontal li {
 }
 
 ul.vertical li {
+  padding: 10px;
   border-radius: 50%;
   background-color: white;
-  padding: 10px;
   margin-bottom: 10px;
   box-shadow: 10px;
 }
@@ -34,8 +34,8 @@ li:hover .fa-icon {
 
 .icon-container {
   position: relative;
-  max-width: 400px;
   width: 100%;
+  max-width: 400px;
 }
 
 .fa-icon-position {
