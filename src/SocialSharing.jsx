@@ -21,7 +21,7 @@ const SocialSharing = ({
 }) => {
   const [currentUrl, setCurrentUrl] = useState('');
   const [display, setDisplay] = useState(true);
-  const pathName = location.pathname;
+  const pathName = location?.pathname;
 
   useEffect(() => {
     setCurrentUrl(window.location.href);
@@ -29,7 +29,7 @@ const SocialSharing = ({
 
   // Disable sharing on non content routes
   useEffect(() => {
-    setDisplay(!isCmsUi(pathName));
+    pathName && setDisplay(!isCmsUi(pathName));
   }, [pathName]);
 
   // MOBILE checker
